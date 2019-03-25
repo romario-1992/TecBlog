@@ -1,0 +1,74 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f3f3f3;
+}
+
+header {
+	background-color: #fff;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+header .center {
+	max-width: 720px;
+	margin: auto;
+	height: 45px;
+	border: 1px solid red;
+}
+#logo {
+	float: left;
+}
+#menu {
+	float: right; 
+}
+nav ul,
+nav li  {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+nav li {
+	float: left;
+	cursor: pointer;
+	padding-right: 5px;
+	padding-left: 5px;
+	line-height: 45px;
+}
+nav a {
+	text-decoration: none;
+}
+
+/******Formatação do menu************/
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+}
+/*Links não visitados*/
+a:link {
+	color: #838383;
+}
+
+/*Links vistados*/
+a:visited {
+	color: #838383;
+}
+
+/*Links hover*/
+a:hover {
+	color: #fff;
+	background: #b9c941;
+}
+
+/*Links active*/
+a:active {
+	color: #535353;
+}
+	
