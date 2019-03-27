@@ -104,3 +104,13 @@ a:active {
 	display: block;
 	margin-top: 10px;
 }
+
+/******* Rodapé *******/
+
+footer {
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 40px;
+	background-color: #FFF;
+}
